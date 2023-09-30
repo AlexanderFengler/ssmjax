@@ -1,0 +1,8 @@
+recursive-include docs
+include README.md LICENSE
+include ssmjax *.py
+include notebooks/*
+global-exclude .git
+global-exclude *~
+global-exclude *.pyc
+global-exclude .#*
